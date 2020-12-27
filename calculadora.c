@@ -17,7 +17,11 @@ int main() {
             resultado = x + y;
             break;
         case '-':
-            resultado = x - y;
+            resultado = y - x;
+            break;
+        case '*':
+        case 'x':
+            resultado = x * y;
             break;
         default:
             valido = 0;
